@@ -577,4 +577,4 @@ async def create_category(ctx, args):
         channel = await guild.create_category(args)
         await creating.edit(content="Done. Check the channels to see if I created a category for you.")
 
-bot.run("NDkzOTI2NDc4ODI5MDYwMDk5.DsRzmw.1VqEZQG8TS0JZgEv7txZQA-IDTw")
+bot.run(os.getenv('TOKEN'))
